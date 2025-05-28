@@ -1,0 +1,14 @@
+{
+  "name": "icloud-gallery-sync",
+  "version": "1.0.0",
+  "description": "Auto-sync iCloud photos to web gallery",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "chokidar": "^3.5.3",
+    "fs-extra": "^11.1.1"
+  }
+} 
